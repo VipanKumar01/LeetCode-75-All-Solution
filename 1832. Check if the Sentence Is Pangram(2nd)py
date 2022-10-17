@@ -1,0 +1,16 @@
+# Name = Vipan Kumar
+# user name = @VipanKumar01
+
+
+class Solution:
+    def checkIfPangram(self, sentence: str) -> bool:
+      
+        result = set(sentence)
+        length = len(result)
+
+        if length == 26:
+            return True
+        else:
+            return False
+          
+# --HappyCode--
